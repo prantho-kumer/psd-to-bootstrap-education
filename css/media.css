@@ -30,7 +30,73 @@
     }
 
     /* header end  */
+    /* banner start */
+    .banner {
+        background-image: none;
+    }
 
+    .banner_content {
+        background-color: #ffffff;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        margin: 0;
+    }
+
+    .banner_content h1 {
+        font-size: 28px;
+    }
+
+    .scroll {
+        margin-top: 15px;
+    }
+
+    .scroll_arrow img {
+        height: 35px;
+    }
+
+    /* banner start */
+    /* about start */
+    .about {
+        padding: 40px 0;
+    }
+
+    .common_title h1 {
+        font-size: 25px;
+    }
+
+    .common_title hr {
+        width: 120px;
+        border-top: 3px dashed white;
+    }
+
+    .about_content p {
+        font-size: 18px;
+    }
+
+    .about_content h2 {
+        font-size: 22px;
+    }
+
+    .about_content hr {
+        width: 120px;
+        margin: 5px;
+    }
+
+    .about_content a {
+        font-size: 20px;
+        padding: 5px 20px;
+    }
+
+    /* about end */
+    /* activities start */
+    .activities_single_text {
+        font-size: 24px;
+        letter-spacing: 4px;
+        word-spacing: 2px;
+        padding: 0 25px;
+    }
+
+    /* activities end*/
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -56,6 +122,18 @@
     }
 
     /* header end  */
+    /* activities start */
+    .activities_single_text {
+        font-size: 24px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+
+    .activities_single_text:last-child {
+        letter-spacing: 4px;
+    }
+
+    /* activities end*/
 
 }
 
@@ -88,7 +166,47 @@
         margin-bottom: 200px;
     }
 
+    .scroll {
+        margin-bottom: -15px;
+    }
+
     /* banner end */
+    /* about start */
+    .common_title h1 {
+        font-size: 25px;
+    }
+
+    .common_title hr {
+        width: 150px;
+        border-top: 4px dashed white;
+    }
+
+    .about_content h2 {
+        font-size: 24px;
+    }
+
+    .about_content hr {
+        width: 120px;
+    }
+
+    .about_content a {
+        font-size: 22px;
+        padding: 10px 35px;
+    }
+
+    .about_content img {
+        margin-top: 50px;
+    }
+
+    /* about end */
+    /* activities start */
+    .activities_single_text {
+        font-size: 22px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+
+    /* activities end*/
 }
 
 /* Large devices (desktops, 992px and up) */

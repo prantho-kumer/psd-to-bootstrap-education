@@ -4,6 +4,7 @@ font-family: 'Dosis', sans-serif;
 font-family: 'Sniglet', cursive;
 */
 body {
+    background-image: url(../images/body.png);
     font-family: 'Dosis', sans-serif;
     color: #333333;
 }
@@ -97,9 +98,188 @@ body {
 
 }
 
-.scroll p {}
-
-.scroll i {}
-
+.scroll p {
+    font-family: 'Lato',
+        sans-serif;
+    color: #bbbbbb;
+}
 
 /* banner end */
+/* about start */
+.about {
+    padding: 80px 0;
+}
+
+.common_title {
+    margin-bottom: 30px;
+
+}
+
+.common_title h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.common_title hr {
+    width: 250px;
+    border-top: 5px dashed white;
+    box-shadow: 0px 4px 6px #8c8c8c;
+}
+
+.about_content {
+    padding-top: 30px;
+}
+
+.about_content p {
+    font-size: 18px;
+}
+
+.about_content hr {
+    display: inline-block;
+    border: none;
+    width: 175px;
+    height: 4px;
+    background-color: #dddddd;
+}
+
+.about_content a {
+    font-weight: 700;
+    font-size: 24px;
+    color: #f05c5c;
+    padding: 15px 55px;
+    border-radius: 30%;
+    clip-path: polygon(244% 555%, -825% -197%, 159% 103%, -112% 75%, 82% -31%);
+    background-color: #fff;
+    box-shadow: 5px 5px #3333;
+}
+
+.about_image img {
+    border-radius: 15px;
+}
+
+/* about end */
+/* activities start */
+.activities {
+    background-image: url(../images/activities_bg.png);
+    padding: 80px 0;
+}
+
+.activities_title h1 {
+    text-shadow: 2px 1px white;
+}
+
+.activities_title hr {
+    border-radius: 25px;
+    box-shadow: none;
+}
+
+.activities_single_wrapper {
+    position: relative;
+    margin-top: 30px;
+}
+
+.activities_image_bg {
+    width: 115px;
+}
+
+.activities_single_image_top img {
+    position: absolute;
+    border-radius: 50%;
+    top: 2px;
+    left: -5px;
+    right: 0;
+    margin: auto;
+}
+
+.activities_single_text {
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+
+/* activities end*/
+/* courses start */
+/* card start */
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+.card-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.profile {
+    position: absolute;
+    top: -12px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card_footer_divider {
+    padding: 0 2px;
+}
+
+/* card end */
+
+/* courses end*/
