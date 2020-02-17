@@ -1,0 +1,98 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* header start  */
+    .navbar-brand-custom {
+        width: 150px;
+    }
+
+    .menu ul li {
+        text-align: right;
+    }
+
+    .menu ul li a {
+        display: inline-block;
+    }
+
+    .dropdown-custom {
+        text-align: right;
+    }
+
+    .dropdown-menu-custom {
+        top: 45px;
+        left: -73px;
+        width: 10px;
+    }
+
+    .dropdown-menu-search {
+        width: 10px;
+        padding-right: 0px;
+    }
+
+    /* header end  */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* header start  */
+    .menu ul li {
+        text-align: right;
+    }
+
+    .menu ul li a {
+        display: inline-block;
+    }
+
+    .dropdown-custom {
+        text-align: right;
+    }
+
+    .dropdown-menu-custom {
+        top: 45px;
+        left: 150px;
+        width: 18rem;
+    }
+
+    /* header end  */
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* header start  */
+    .menu ul li {
+        text-align: right;
+    }
+
+    .menu ul li a {
+        display: inline-block;
+    }
+
+    .dropdown-custom {
+        text-align: right;
+    }
+
+    .dropdown-menu-custom {
+        top: 30px;
+        left: 200px;
+        width: 28rem;
+    }
+
+    /* header end  */
+    /* banner start */
+    .banner_content {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    /* banner end */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

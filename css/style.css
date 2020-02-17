@@ -1,0 +1,105 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Sniglet', cursive;
+*/
+body {
+    font-family: 'Dosis', sans-serif;
+    color: #333333;
+}
+
+/*header start*/
+.header {
+    background-color: #ffd338;
+}
+
+.menu ul li a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff !important;
+    padding: 0 15px !important;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.menu ul li a:hover {
+    background-color: #f05c5c;
+
+}
+
+.btn-user {
+    color: white;
+    margin-right: 5px;
+    transition: .5s;
+}
+
+.btn-user:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-user:hover {
+    color: #f05c5c;
+}
+
+.btn-search {
+    color: white;
+    transition: .5s;
+}
+
+.btn-search:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-search:hover {
+    color: #f05c5c;
+}
+
+.dropdown-menu-user {
+    left: -268px;
+    min-width: 20rem;
+}
+
+.dropdown-menu-search {
+    top: 70px;
+    left: -315px;
+    min-width: 20rem;
+    padding-right: 20px;
+}
+
+.sign_up_a {
+    color: #ffd338;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.sign_up_a:hover {
+    color: #f05c5c;
+}
+
+/*header end*/
+/* banner start */
+.banner {
+    background-image: url(../images/banner-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner_content {
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.banner_content h1 {
+    font-weight: 800;
+
+}
+
+.scroll p {}
+
+.scroll i {}
+
+
+/* banner end */
