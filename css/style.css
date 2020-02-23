@@ -202,7 +202,12 @@ body {
 
 /* activities end*/
 /* courses start */
+.courses {
+    padding: 80px 0;
+}
+
 /* card start */
+
 .card {
     font-size: 1em;
     overflow: hidden;
@@ -212,8 +217,49 @@ body {
     box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
 }
 
+.card-custom {
+    border-radius: 25px;
+}
+
+.card-header-custom {
+    background-color: #1ec0ff;
+    padding: 5px 15px;
+}
+
+.header-text {
+    font-family: 'Lato',
+        sans-serif;
+    color: #fff;
+    padding: 5px 5px;
+}
+
+.math_text_color {
+    color: #56d47e !important;
+}
+
+.math_bg_color {
+    background-color: #56d47e !important;
+}
+
+.science_text_color {
+    color: #f05c5c !important;
+}
+
+.science_bg_color {
+    background-color: #f05c5c !important;
+}
+
+.environmental_text_color {
+    color: #ffd338 !important;
+}
+
+.environmental_bg_color {
+    background-color: #ffd338 !important;
+}
+
 .card-block {
     font-size: 1em;
+    height: 180px;
     position: relative;
     margin: 0;
     padding: 1em;
@@ -229,15 +275,17 @@ body {
 }
 
 .card-title {
-    font-size: 1.28571429em;
-    font-weight: 700;
+    color: #1ec0ff;
+    font-size: 28px;
+    font-weight: 500;
     line-height: 1.2857em;
 }
 
 .card-text {
+    font-family: 'Lato',
+        sans-serif;
     clear: both;
     margin-top: .5em;
-    color: rgba(0, 0, 0, .68);
 }
 
 .card-footer {
@@ -246,10 +294,12 @@ body {
     top: 0;
     left: 0;
     max-width: 100%;
-    padding: .75em 1em;
+    padding: .75rem 0.8rem;
     color: rgba(0, 0, 0, .4);
     border-top: 1px solid rgba(0, 0, 0, .05) !important;
     background: #fff;
+    display: flex;
+    justify-content: space-between;
 }
 
 .card-inverse .btn {
@@ -257,15 +307,17 @@ body {
 }
 
 .profile {
+    color: #fff;
     position: absolute;
-    top: -12px;
+    top: -25px;
+    right: 15px;
     display: inline-block;
     overflow: hidden;
     box-sizing: border-box;
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     margin: 0;
-    border: 1px solid #fff;
+    background-color: #1ec0ff;
     border-radius: 50%;
 }
 
@@ -276,10 +328,37 @@ body {
     border-radius: 50%;
 }
 
+.price_tag_price {
+    font-weight: 700;
+    font-size: 18px;
+    right: 15px;
+    display: block;
+    margin-top: 3px;
+}
+
+.price_tag_text {
+    font-family: 'Lato',
+        sans-serif;
+    font-weight: 300;
+    margin-top: -8px;
+}
+
 .card_footer_divider {
     padding: 0 2px;
 }
 
 /* card end */
+
+.courses_button_wrapper {
+    margin-top: 50px;
+}
+
+.courses_button {
+    font-size: 22px;
+    width: 100%;
+    color: #fff;
+    background-color: #56d47e;
+    border-radius: 15px;
+}
 
 /* courses end*/
