@@ -98,6 +98,10 @@ body {
 
 }
 
+.scroll {
+    padding-top: 160px;
+}
+
 .scroll p {
     font-family: 'Lato',
         sans-serif;
@@ -142,10 +146,12 @@ body {
     background-color: #dddddd;
 }
 
-.about_content a {
+.about_content a,
+.memorable_button {
     font-weight: 700;
     font-size: 24px;
     color: #f05c5c;
+    text-transform: uppercase;
     padding: 15px 55px;
     border-radius: 30%;
     clip-path: polygon(244% 555%, -825% -197%, 159% 103%, -112% 75%, 82% -31%);
@@ -362,3 +368,9 @@ body {
 }
 
 /* courses end*/
+/* memorable moment start */
+.text_shadow {
+    text-shadow: 2px 1px white;
+}
+
+/* memorable moment end */
