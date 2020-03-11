@@ -22,6 +22,7 @@
         top: 45px;
         left: -73px;
         width: 10px;
+        display: none !important;
     }
 
     .dropdown-menu-search {
@@ -82,7 +83,7 @@
         margin: 5px;
     }
 
-    .about_content a {
+    .memorable_button {
         font-size: 20px;
         padding: 5px 20px;
     }
@@ -113,6 +114,48 @@
     }
 
     /* courses end */
+    /* memorable moment start */
+    .memorable_button_wrapper {
+        margin-top: 15px;
+    }
+
+    /* memorable moment end */
+    /* teacher start */
+    .teacher {
+        padding: 40px;
+    }
+
+    .teacher_image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .teacher_info {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /* teacher end*/
+    /* what we did start*/
+    .what_we_did {
+        padding: 40px 0;
+    }
+
+    /* counter start*/
+    .what_we_did_title h1 {
+        margin-bottom: 20px;
+    }
+
+    .counter {
+        font-size: 50px;
+    }
+
+    .counter_text {
+        font-size: 20px;
+    }
+
+    /* what we did end*/
+    /* counter end*/
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -162,6 +205,48 @@
     }
 
     /* courses end */
+    /* memorable moment start */
+    .memorable_button_wrapper {
+        margin-top: 20px;
+    }
+
+    /* memorable moment end */
+    /* teacher start */
+    .teacher {
+        padding: 50px;
+    }
+
+    .teacher_image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .teacher_info {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /* teacher end*/
+    /* what we did start*/
+    .what_we_did {
+        padding: 50px 0;
+    }
+
+    /* counter start*/
+    .what_we_did_title h1 {
+        margin-bottom: 20px;
+    }
+
+    .counter {
+        font-size: 55px;
+    }
+
+    .counter_text {
+        font-size: 24px;
+    }
+
+    /* what we did end*/
+    /* counter end*/
 
 }
 
@@ -217,7 +302,7 @@
         width: 120px;
     }
 
-    .about_content a {
+    .memorable_button {
         font-size: 22px;
         padding: 10px 35px;
     }
@@ -228,6 +313,7 @@
 
     /* about end */
     /* activities start */
+
     .activities_single_text {
         font-size: 22px;
         letter-spacing: 1px;
@@ -235,6 +321,48 @@
     }
 
     /* activities end*/
+    /* memorable moment start */
+    .memorable_button_wrapper {
+        margin-top: 30px;
+    }
+
+    /* memorable moment end */
+    /* teacher start */
+    .teacher {
+        padding: 60px;
+    }
+
+    .teacher_image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .teacher_info {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /* teacher end*/
+    /* what we did start*/
+    .what_we_did {
+        padding: 60px 0;
+    }
+
+    /* counter start*/
+    .what_we_did_title h1 {
+        margin-bottom: 20px;
+    }
+
+    .counter {
+        font-size: 55px;
+    }
+
+    .counter_text {
+        font-size: 24px;
+    }
+
+    /* what we did end*/
+    /* counter end*/
 }
 
 /* Large devices (desktops, 992px and up) */

@@ -373,4 +373,222 @@ body {
     text-shadow: 2px 1px white;
 }
 
+.memorable_moment_content {
+    padding: 15px 0;
+}
+
+.memorable_button_wrapper {
+    margin-top: 40px;
+}
+
+.memorable_moment_image {
+    transition: .5s;
+    overflow: hidden;
+}
+
+.memorable_moment_image:hover {
+    transform: scale(1.1);
+}
+
 /* memorable moment end */
+/* teacher start */
+.teacher {
+    padding: 80px 0;
+}
+
+.giratweets_content {
+    font-family: 'Lato',
+        sans-serif;
+    text-align: center;
+}
+
+.giratweets_icon {
+    font-size: 60px;
+    margin: 0;
+    color: #1ec0ff;
+
+}
+
+.giratweets_link {
+    font-size: 18px;
+    color: #1ec0ff;
+}
+
+.giratweets_quote {
+    color: #333333;
+    margin: 20px 0;
+}
+
+.giratweets_hashtag {
+    color: #1ec0ff;
+}
+
+.teacher_title {
+    margin: 50px 0;
+}
+
+.teacher_title h1 {
+    margin-bottom: 30px;
+}
+
+/* teacher single start */
+.teacher_single {
+    margin: 15px 0;
+}
+
+.teacher_info {
+    margin-top: 5px;
+}
+
+.teacher_image {
+    transition: 1s;
+}
+
+.teacher_image img {
+    border-radius: 15px;
+    display: block;
+    transition: 1s;
+}
+
+.teacher_image:hover {
+    transform: scale(1.05);
+
+}
+
+.teacher_name {
+    font-weight: 700 !important;
+    color: #1ec0ff;
+}
+
+.teacher_s_icon li a {
+    font-size: 20px;
+}
+
+.teacher_s_icon li a i {
+    transition: .1s;
+}
+
+.teacher_s_icon li a i:hover {
+    transform: translate(0px, -3px) scale(1.3);
+}
+
+.teacher_info h5 {
+    font-weight: 700 !important;
+    display: inline-block;
+    border-bottom: 2px solid #333333;
+}
+
+.fb_icon {
+    color: #3b5998;
+}
+
+.twitter_icon {
+    color: #1ec0ff;
+}
+
+.google_icon {
+    color: #db3236;
+}
+
+.tumbler_icon {
+    color: #34526f;
+}
+
+/* teacher single start */
+
+/* teacher end*/
+/* what we did start */
+.what_we_did {
+    padding: 80px 0;
+    background-image: url(../images/what_we_do.jpg);
+}
+
+.what_we_did_title h1 {
+    margin-bottom: 30px;
+}
+
+/* counter start */
+.single_content {
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.counter {
+    font-size: 60px;
+    margin: 0;
+}
+
+.counter_image {
+    margin-top: -15px;
+}
+
+.counter_text {
+    font-size: 28px;
+}
+
+/* counter end*/
+
+/* what we did end*/
+/* blog start */
+.blog {
+    padding: 80px 0;
+}
+
+/* first column single start */
+.event_details {
+    margin: 15px 0;
+}
+
+.event_date {
+    width: 85px;
+    height: 85px;
+    background-color: #1ec0ff;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.event_date h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.event_date p {
+    margin: 0;
+}
+
+.event_title {}
+
+.event_title h2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+.event_title p {}
+
+.event_clock_icon {
+    margin-right: 5px;
+    color: #1ec0ff;
+}
+
+.event_time {
+    font-family: 'Lato',
+        sans-serif;
+    color: #1ec0ff;
+}
+
+.event_register {
+    color: #fb9130;
+    text-decoration: underline;
+}
+
+.event_register:hover {
+    color: #b45703;
+}
+
+
+/* first column single start */
+
+/* blog end*/
