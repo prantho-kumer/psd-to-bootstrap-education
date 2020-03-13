@@ -28,6 +28,10 @@ body {
 
 }
 
+.nav_logo {
+    width: 200px;
+}
+
 .btn-user {
     color: white;
     margin-right: 5px;
