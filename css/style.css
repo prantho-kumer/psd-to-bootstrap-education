@@ -540,6 +540,11 @@ body {
     margin: 15px 0;
 }
 
+.event_date_wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .event_date {
     width: 85px;
     height: 85px;
@@ -558,15 +563,14 @@ body {
     margin: 0;
 }
 
-.event_title {}
+.event_title {
+    margin-top: 10px;
+}
 
 .event_title h2 {
     font-weight: 700;
     font-size: 24px;
 }
-
-
-.event_title p {}
 
 .event_clock_icon {
     margin-right: 5px;
@@ -590,5 +594,156 @@ body {
 
 
 /* first column single start */
+/* second column single start */
+.second_col_sin_image img {
+    border-radius: 15px;
+}
 
+
+.news_details h2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.news_hr {
+    margin: 10px 0;
+    background: transparent;
+    border-top: 5px dotted;
+}
+
+.border_blue {
+    border-color: #1ec0ff;
+}
+
+.border_green {
+    border-color: #56d47e;
+}
+
+.text_green {
+    color: #56d47e;
+}
+
+.border_red {
+    border-color: #f05c5c;
+}
+
+.text_red {
+    color: #f05c5c;
+}
+
+.border_yellow {
+    border-color: #ffc852;
+}
+
+.text_yellow {
+    color: #ffc852;
+}
+
+.news_cal_icon {
+    margin-right: 5px;
+}
+
+.news_details {
+    margin-top: 5px;
+}
+
+/* second column single end */
 /* blog end*/
+/* contact start */
+.contact {
+    font-family: 'Lato',
+        sans-serif;
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+
+.contact_single_wrapper {
+    margin-top: 15px;
+}
+
+/* first column start */
+.contact_logo {
+    margin-top: -20px;
+}
+
+.contact_first_column_text {
+    margin-top: 5px;
+}
+
+.blue_text {
+    color: #1ec0ff;
+}
+
+.check_icon {
+    margin-right: 10px;
+}
+
+.insta_img_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.insta_img {
+    flex: 0 0 33.333333%;
+}
+
+.insta_img img {
+    padding: 10px;
+}
+
+/* first column start */
+/* second column start */
+
+/* second column start */
+.contact_third_col_icon {
+    margin-right: 10px;
+}
+
+.column_fourth_title h2,
+.font_24 {
+    font-size: 24px;
+}
+
+.form-control-custom {
+    border-right: none !important;
+}
+
+.input-group-text-custom {
+    background-color: transparent !important;
+    border-left: none;
+}
+
+.input-group-text-custom button {
+    color: #cccccc;
+}
+
+.contact_social_icon {
+    font-size: 20px;
+    color: #cccccc;
+}
+
+.contact_social_icon li {
+    margin: 0 10px;
+}
+
+/* contact end*/
+/* footer start */
+.footer {
+    padding: 20px 0;
+    background-color: #ffd338;
+    color: #ffffff;
+}
+
+.footer_menu li a {
+    font-family: 'Lato',
+        sans-serif;
+    color: #ffffff;
+}
+
+.footer_second_column_content {
+    text-align: right;
+}
+
+/* footer end*/

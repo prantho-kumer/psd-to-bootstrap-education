@@ -156,6 +156,65 @@
 
     /* what we did end*/
     /* counter end*/
+    /* blog start */
+    .blog {
+        padding: 40px 0;
+    }
+
+    /* first column */
+    .event_date_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .event_date {
+        width: 75px;
+        height: 75px;
+    }
+
+    .event_date h2 {
+        font-size: 30px;
+    }
+
+    .event_title {
+        text-align: center;
+
+    }
+
+    .event_title h2 {
+        font-size: 20px;
+    }
+
+    /* first column */
+    /* second column; */
+    .second_col_sin_image {
+        text-align: center;
+    }
+
+    .news_details {
+        text-align: center;
+    }
+
+    /* second column; */
+    /* blog end*/
+    /* contact start */
+    .contact {
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    /* contact start */
+    /* footer start */
+    .footer_first_column_content {
+        text-align: center;
+    }
+
+    .footer_second_column_content {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /* footer end*/
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -247,6 +306,59 @@
 
     /* what we did end*/
     /* counter end*/
+    /* blog start */
+    .blog {
+        padding: 50px 0;
+    }
+
+    /* first column */
+    .event_date_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .event_date {
+        width: 75px;
+        height: 75px;
+    }
+
+    .event_date h2 {
+        font-size: 30px;
+    }
+
+    .event_title h2 {
+        font-size: 20px;
+    }
+
+    /* first column */
+    /* second column; */
+    .second_col_sin_image {
+        text-align: center;
+    }
+
+    .news_details {
+        text-align: center;
+    }
+
+    /* second column; */
+    /* blog end*/
+    /* contact start */
+    .contact {
+        padding: 50px 0;
+    }
+
+    /* contact start */
+    /* footer start */
+    .footer_first_column_content {
+        text-align: center;
+    }
+
+    .footer_second_column_content {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /* footer end*/
 
 }
 
@@ -363,6 +475,33 @@
 
     /* what we did end*/
     /* counter end*/
+    /* blog start */
+    .blog {
+        padding: 60px 0;
+    }
+
+    /* first column */
+    .event_date {
+        width: 65px;
+        height: 65px;
+    }
+
+    .event_date h2 {
+        font-size: 30px;
+    }
+
+    .event_title h2 {
+        font-size: 20px;
+    }
+
+    /* first column */
+    /* blog end*/
+    /* contact start */
+    .contact {
+        padding: 60px 0;
+    }
+
+    /* contact start */
 }
 
 /* Large devices (desktops, 992px and up) */
